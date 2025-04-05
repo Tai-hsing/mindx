@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术网页</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">学术主页</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-blue-500">首页</a></li>
+                <li><a href="#" class="hover:text-blue-500">研究</a></li>
+                <li><a href="#" class="hover:text-blue-500">出版物</a></li>
+                <li><a href="#" class="hover:text-blue-500">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 主内容 -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 个人简介 -->
+        <section class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
+            <img src="https://picsum.photos/200/200" alt="个人照片" class="w-40 h-40 rounded-full mx-auto md:mx-0">
+            <div>
+                <h1 class="text-3xl font-bold mb-2">学者姓名</h1>
+                <p class="text-gray-600 mb-4">职位，机构名称</p>
+                <p class="mb-4">这里是学者的简要介绍，包括研究兴趣、学术背景等信息。可以用几句话来描述学者的主要研究方向和成就。</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a>
+                    <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fa-brands fa-researchgate"></i> ResearchGate</a>
+                </div>
+            </div>
+        </section>
+        <!-- 研究领域 -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">研究领域</h2>
+            <ul class="list-disc list-inside">
+                <li>研究领域 1</li>
+                <li>研究领域 2</li>
+                <li>研究领域 3</li>
+            </ul>
+        </section>
+        <!-- 出版物 -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">出版物</h2>
+            <ul class="list-decimal list-inside">
+                <li>作者. 出版物标题. <em>期刊名称</em>, 年份, 卷号(期号): 页码.</li>
+                <li>作者. 出版物标题. <em>会议名称</em>, 年份, 页码.</li>
+            </ul>
+        </section>
+    </main>
+    <!-- 页脚 -->
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-4 py-4 text-center text-gray-600">
+            &copy; 2025 学者姓名. 保留所有权利.
+        </div>
+    </footer>
+</body>
+</html>
+    
